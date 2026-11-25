@@ -1,0 +1,30 @@
+test_apply_plan (__main__.Tests.test_apply_plan) ... ok
+test_auth (__main__.Tests.test_auth) ... ok
+test_budget_alert (__main__.Tests.test_budget_alert) ... ok
+test_capacity (__main__.Tests.test_capacity) ... ok
+test_changed_campaign (__main__.Tests.test_changed_campaign) ... ok
+test_create_campaign (__main__.Tests.test_create_campaign) ... ok
+test_diagnostics (__main__.Tests.test_diagnostics) ... ok
+test_experiment (__main__.Tests.test_experiment) ... ok
+test_filter (__main__.Tests.test_filter) ... ok
+test_forecasts (__main__.Tests.test_forecasts) ... ok
+test_health (__main__.Tests.test_health) ... ok
+test_history (__main__.Tests.test_history) ... ok
+test_invalid (__main__.Tests.test_invalid) ... ok
+test_preview (__main__.Tests.test_preview) ... ok
+test_rate_validation (__main__.Tests.test_rate_validation) ... ok
+test_scenario (__main__.Tests.test_scenario) ... ok
+test_snapshot (__main__.Tests.test_snapshot) ... ok
+test_task_and_outcome (__main__.Tests.test_task_and_outcome) ... ok
+test_task_insight (__main__.Tests.test_task_insight) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 2.133s
+
+OK
+
+Additional checks:
+- Node JavaScript syntax: PASS
+- Uvicorn --host 0.0.0.0 startup, /health, frontend HTTP response: PASS
+- Chromium end-to-end: BLOCKED (net::ERR_BLOCKED_BY_ADMINISTRATOR). No browser pass claimed.
+- Render deployment: not executed (requires user account).
